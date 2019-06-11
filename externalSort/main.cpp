@@ -243,7 +243,7 @@ public:
         string file = "sorted" + FileNumber + ".bin";
         DataStruct tempData;
         float weight = 0;
-        int position = 0, num = 1;
+        int position = 1, num = 1;
         
         
         input.open( file.c_str(), fstream::in | fstream::binary );
